@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: shakilahmedsamim/cluad
-  branch: main
+  name: test-repo
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
