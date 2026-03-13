@@ -1,0 +1,187 @@
+export const services = [
+  {
+    id: 'gtm-setup',
+    icon: '⬡',
+    title: 'Google Tag Manager Setup',
+    short: 'GTM Expert Setup',
+    description: 'Complete GTM container architecture, tag governance, and systematic data layer implementation that scales with your business.',
+    features: ['Container structure & governance', 'Data layer architecture', 'Tag templates & triggers', 'QA & testing protocols'],
+    color: '#00e5a0',
+    badge: 'Most Popular',
+  },
+  {
+    id: 'ga4-tracking',
+    icon: '◈',
+    title: 'GA4 Tracking Setup',
+    short: 'GA4 Implementation',
+    description: 'Full GA4 implementation with custom events, conversion tracking, audience building, and BigQuery integration.',
+    features: ['Event schema design', 'Custom dimensions & metrics', 'Funnel & conversion setup', 'BigQuery export config'],
+    color: '#7fffd4',
+  },
+  {
+    id: 'server-side-tracking',
+    icon: '◉',
+    title: 'Server-Side Tracking',
+    short: 'SST Architecture',
+    description: 'Move tracking to your server infrastructure. Bypass ad blockers, iOS restrictions, and recover 20-40% of lost conversion data.',
+    features: ['GTM Server container setup', 'First-party cookie implementation', 'Ad blocker bypass', 'Data accuracy recovery'],
+    color: '#00e5a0',
+    badge: 'Advanced',
+  },
+  {
+    id: 'meta-capi',
+    icon: '▲',
+    title: 'Meta Conversion API',
+    short: 'Meta CAPI',
+    description: 'Server-side Meta pixel events that bypass browser limitations. Improve Event Match Quality scores and unlock better optimization.',
+    features: ['CAPI server setup', 'Event deduplication', 'Match quality optimization', 'Catalog & offline events'],
+    color: '#f0ff4b',
+  },
+  {
+    id: 'google-ads-conversions',
+    icon: '◆',
+    title: 'Google Ads Conversion Tracking',
+    short: 'Google Ads Tracking',
+    description: 'Accurate Google Ads conversion tracking with enhanced conversions, offline conversion import, and value-based bidding setup.',
+    features: ['Goal & conversion setup', 'Enhanced conversions', 'Value-based bidding', 'Attribution modeling'],
+    color: '#7fffd4',
+    badge: 'High ROI',
+  },
+  {
+    id: 'enhanced-conversions',
+    icon: '⬟',
+    title: 'Enhanced Conversions',
+    short: 'Enhanced Conversions',
+    description: 'Implement Google & Meta enhanced conversions using hashed first-party data to improve match rates and unlock bidding signals.',
+    features: ['Customer data hashing', 'Auto-tagging setup', 'Match rate optimization', 'Cross-device attribution'],
+    color: '#00e5a0',
+  },
+  {
+    id: 'tracking-audit',
+    icon: '⊕',
+    title: 'Tracking Audit',
+    short: 'Full Audit',
+    description: 'Comprehensive audit of your entire tracking stack. Identify data gaps, duplicates, and inaccuracies killing your ad performance.',
+    features: ['Full stack analysis', 'Data quality report', 'Priority fix roadmap', 'Live QA walkthrough'],
+    color: '#f0ff4b',
+    badge: 'Quick Win',
+  },
+  {
+    id: 'revenue-attribution',
+    icon: '◎',
+    title: 'Revenue Attribution',
+    short: 'Attribution Modeling',
+    description: 'Multi-touch attribution modeling that reveals the true value of each marketing channel in your customer journey.',
+    features: ['Multi-touch models', 'Cross-channel analysis', 'Customer journey mapping', 'ROAS optimization'],
+    color: '#7fffd4',
+  },
+  {
+    id: 'offline-conversion',
+    icon: '⬢',
+    title: 'Offline Conversion Tracking',
+    short: 'Offline Conversions',
+    description: 'Connect offline sales, calls, and CRM data back to your digital ads. Let Google and Meta optimize toward real revenue.',
+    features: ['CRM data integration', 'Call tracking setup', 'GCLID capture & import', 'Lead quality scoring'],
+    color: '#00e5a0',
+  },
+  {
+    id: 'first-party-tracking',
+    icon: '◐',
+    title: 'First-Party Tracking',
+    short: 'First-Party Data',
+    description: 'Future-proof your analytics with first-party data infrastructure. Collect, own, and activate your customer data compliantly.',
+    features: ['1P data strategy', 'Cookie consent setup', 'Customer data platform', 'Privacy-safe activation'],
+    color: '#f0ff4b',
+    badge: 'Future-Proof',
+  },
+];
+
+export const stats = [
+  { value: '127+', label: 'Tracking projects delivered', suffix: '' },
+  { value: '40', label: 'Avg. conversion data recovered', suffix: '%' },
+  { value: '8', label: 'Years of expertise', suffix: '+' },
+  { value: '3.2x', label: 'Average ROAS improvement', suffix: '' },
+];
+
+export const expertise = [
+  { tool: 'Google Tag Manager', level: 98, category: 'Tagging' },
+  { tool: 'GA4 / Google Analytics', level: 97, category: 'Analytics' },
+  { tool: 'Meta Conversion API', level: 95, category: 'Social Ads' },
+  { tool: 'Server-Side GTM', level: 94, category: 'Infrastructure' },
+  { tool: 'Google Ads Enhanced Conv.', level: 96, category: 'Paid Search' },
+  { tool: 'BigQuery / Looker Studio', level: 88, category: 'BI' },
+  { tool: 'Shopify / WooCommerce', level: 92, category: 'E-Commerce' },
+  { tool: 'TikTok Events API', level: 85, category: 'Social Ads' },
+];
+
+export const caseStudies = [
+  {
+    id: 1,
+    client: 'E-Commerce Brand',
+    industry: 'Fashion & Apparel',
+    challenge: 'iOS 14+ updates destroyed 60% of Meta conversion visibility. ROAS fell from 4.2x to 1.8x in 3 months.',
+    solution: 'Implemented server-side Meta CAPI with deduplication, enhanced conversions, and event match quality optimization.',
+    results: [
+      { metric: 'Conversion Recovery', value: '94%', icon: '↑' },
+      { metric: 'ROAS Improvement', value: '3.8x', icon: '↑' },
+      { metric: 'Event Match Quality', value: '8.2/10', icon: '★' },
+    ],
+    tags: ['Meta CAPI', 'Server-Side', 'E-Commerce'],
+    accent: '#00e5a0',
+  },
+  {
+    id: 2,
+    client: 'SaaS Platform',
+    industry: 'B2B Software',
+    challenge: 'Google Ads campaigns had 40% duplicate conversions. Bidding algorithms optimizing toward false signals.',
+    solution: 'Full GTM audit, GA4 migration, offline conversion import from CRM, and value-based bidding implementation.',
+    results: [
+      { metric: 'Cost Per Acquisition', value: '-52%', icon: '↓' },
+      { metric: 'Lead Quality Score', value: '+87%', icon: '↑' },
+      { metric: 'Data Accuracy', value: '99.2%', icon: '★' },
+    ],
+    tags: ['GTM Audit', 'GA4', 'Google Ads'],
+    accent: '#f0ff4b',
+  },
+  {
+    id: 3,
+    client: 'Health & Wellness Brand',
+    industry: 'DTC Consumer',
+    challenge: 'Ad blocker adoption at 38% among target audience. Missing critical conversion data causing under-bidding.',
+    solution: 'Server-side GTM infrastructure with first-party cookies, custom domain, and complete tracking stack migration.',
+    results: [
+      { metric: 'Data Recovery', value: '41%', icon: '↑' },
+      { metric: 'Campaign ROAS', value: '5.1x', icon: '↑' },
+      { metric: 'Setup Time', value: '14 days', icon: '⚡' },
+    ],
+    tags: ['Server-Side GTM', 'First-Party', 'DTC'],
+    accent: '#7fffd4',
+  },
+];
+
+export const faqs = [
+  {
+    question: 'What is server-side tracking and why does my business need it?',
+    answer: 'Server-side tracking moves your data collection from the visitor\'s browser to your own server infrastructure. This means ad blockers, browser privacy restrictions, and iOS App Tracking Transparency cannot block your conversion signals. Most clients recover 20-40% of previously invisible conversions, dramatically improving ad algorithm optimization.',
+  },
+  {
+    question: 'How long does a typical GTM setup or tracking audit take?',
+    answer: 'A tracking audit delivers findings within 3-5 business days. A full GTM setup takes 1-2 weeks depending on site complexity. Server-side tracking implementations typically run 2-3 weeks including QA and testing phases.',
+  },
+  {
+    question: 'Will fixing my tracking actually improve my ad performance?',
+    answer: 'Yes — directly. Google and Meta\'s bidding algorithms need accurate, complete conversion data to optimize. When tracking is broken or incomplete, algorithms make poor decisions. Clients regularly see 30-60% ROAS improvements within 4-8 weeks of accurate tracking implementation, as algorithms recalibrate.',
+  },
+  {
+    question: 'What platforms and tools do you specialize in?',
+    answer: 'Google Tag Manager (client & server-side), GA4, Google Ads (including Enhanced Conversions and offline imports), Meta Pixel & Conversion API, TikTok Events API, Shopify, WooCommerce, BigQuery, and Looker Studio. I also work with most CRMs including HubSpot and Salesforce for offline conversion pipelines.',
+  },
+  {
+    question: 'Do you work with e-commerce brands or also B2B/lead gen?',
+    answer: 'Both. For e-commerce, I focus on purchase event accuracy, catalog feeds, and dynamic remarketing tracking. For B2B/lead gen, I specialize in lead quality scoring, CRM integration, offline conversion imports, and multi-touch attribution to understand which channels drive real pipeline.',
+  },
+  {
+    question: 'How do I get started?',
+    answer: 'Book a free 30-minute discovery call. I\'ll review your current setup, identify the biggest tracking gaps, and recommend a prioritized action plan. No obligation — you\'ll leave with actionable insights regardless.',
+  },
+];
