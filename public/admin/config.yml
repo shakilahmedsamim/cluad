@@ -6,12 +6,9 @@ backend:
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
-media_library:
-  name: uploadcare
-
 collections:
   - name: "blog"
-    label: "Blog Posts"
+    label: "Blog"
     folder: "content/blog"
     create: true
     slug: "{{slug}}"
